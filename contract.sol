@@ -5,13 +5,11 @@
 /**
  *
  *
-   https://2pt0.xyz
-   https://x.com/usic_ai
-   https://t.me/+p0MPYXnL3Cc5MGFh
+   $LILY
    
 
    Contract features:
-   200,000,000 tokens
+   420,000,000,000 tokens
    3% buy tax in ETH sent to marketing, community & dev
    3% sell tax in ETH sent to marketing, community & dev
  */
@@ -1170,7 +1168,7 @@ interface IUniswapV2Router02 is IUniswapV2Router01 {
     ) external;
 }
  
-contract usic is ERC20, Ownable {
+contract lily is ERC20, Ownable {
     using SafeMath for uint256;
  
     IUniswapV2Router02 public immutable uniswapV2Router;
@@ -1228,7 +1226,7 @@ contract usic is ERC20, Ownable {
         address indexed oldWallet
     );
  
-    constructor() ERC20("USICoin", "USIC") {
+    constructor() ERC20("Lily", "LILY") {
         uniswapV2Router = IUniswapV2Router02(
             0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D
         );
