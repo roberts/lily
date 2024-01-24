@@ -1232,10 +1232,10 @@ contract lily is ERC20, Ownable {
         );
         _approve(address(this), address(uniswapV2Router), type(uint256).max);
  
-        uint256 totalSupply = 200_000_000 ether;
+        uint256 totalSupply = 420_000_000_000 ether;
  
-        maxTransactionAmount = (totalSupply) / 200; // 500,000,000 tokens
-        maxWallet = (totalSupply) / 100;  // 1% of total supply (1,000,000,000 tokens)
+        maxTransactionAmount = (totalSupply) / 100; // 1% of total supply (420,000,000 tokens)
+        maxWallet = (totalSupply) / 50;  // 2% of total supply (840,000,000 tokens)
         swapTokensAtAmount = (totalSupply * 5) / 10000;
  
         buyMarketingFee = 1;
