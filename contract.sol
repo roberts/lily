@@ -10,8 +10,8 @@
 
    Contract features:
    420,000,000,000 tokens
-   3% buy tax in ETH sent to marketing, community & dev
-   3% sell tax in ETH sent to marketing, community & dev
+   5% buy tax in ETH sent to marketing, community & dev
+   5% sell tax in ETH sent to marketing, community & dev
  */
 
 // SPDX-License-Identifier: MIT
@@ -1238,17 +1238,17 @@ contract lily is ERC20, Ownable {
         maxWallet = (totalSupply) / 50;  // 2% of total supply (840,000,000 tokens)
         swapTokensAtAmount = (totalSupply * 5) / 10000;
  
-        buyMarketingFee = 1;
+        buyMarketingFee = 2;
         buyDevelopmentFee = 1;
-        buyCommunityFundFee = 1;
+        buyCommunityFundFee = 2;
         buyTotalFees =
             buyMarketingFee +
             buyDevelopmentFee +
             buyCommunityFundFee;
  
-        sellMarketingFee = 1;
+        sellMarketingFee = 2;
         sellDevelopmentFee = 1;
-        sellCommunityFundFee = 1;
+        sellCommunityFundFee = 2;
         sellTotalFees =
             sellMarketingFee +
             sellDevelopmentFee +
