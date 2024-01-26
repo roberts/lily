@@ -6,6 +6,9 @@
  *
  *
    $LILY
+   https://LilyCoin.xyz
+   https://x.com/lilycoineth
+   https://t.me/lilycoineth
    
 
    Contract features:
