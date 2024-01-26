@@ -1256,9 +1256,9 @@ contract lily is ERC20, Ownable {
  
         previousFee = sellTotalFees;
  
-        marketingWallet = address(0x2C6B16adE880a3B5F3FCE087014B9dEcb13D300F); // Marketing Funds
-        developmentWallet = address(0xC6aa2f0FF6b8563EA418ec2558890D6027413699); // DrewRoberts.eth
-        communityFundWallet = address(0x08b74d0Dd543250Bf20F53E5dE9f66Ef3F88a7B9); // Community Funds
+        marketingWallet = address(0x1a656342D3298c5e259582863E8933C8D55ea109); // Marketing Funds
+        developmentWallet = address(0xeb6E8a1Fe7Ad4cDFa49a95ad480422c72D1Ab79C); // Dev Funds
+        communityFundWallet = address(0xa888c996f3DAAFf58d61043df286C0e4541f6842); // Community Funds
  
         excludeFromFees(owner(), true);
         excludeFromFees(address(this), true);
